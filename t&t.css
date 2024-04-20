@@ -1,0 +1,140 @@
+*{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+}
+
+body
+{   
+    background-color: #fef7f7;
+    
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;   
+}
+p{
+    color: rgb(32, 29, 29);
+}
+
+
+
+
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    background: black;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    display: flexbox;
+    flex-direction: row;
+    
+    }
+    
+    .footer .col{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:rgb(226, 52, 52);
+    font-size:0.8em;
+    display: flexbox ;
+    flex-direction: column;
+
+    }
+    
+    .footer .col a{
+    text-decoration:none;
+    color:rgb(241, 83, 83);
+    transition:0.5s;
+    margin:0px 10px;
+    }
+    
+    .footer .col a:hover{
+    color:#cc2828;
+    }
+    
+    .footer .col ul{
+    width:100%;
+    }
+    
+    .footer .col ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }}
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    
+.tgl{
+    padding: 2px 5px;
+}
+
+
+
+/* Mahableshwar */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.heading1
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-shadow:6px 6px 8px white;
+    z-index:15;
+    text-decoration: none;
+     /* position: absolute;
+    top: 5% ;  */
+    color: black;
+    /* left: 35%; */
+    
+}
+#goa-container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#goa-container .heading1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-shadow:6px 6px 8px white;
+    z-index:10;
+    text-decoration: none;
+    color: black;
+}
+
+.heading2
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-shadow:6px 6px 8px white;
+    z-index:10;
+    text-decoration: none;
+    position: absolute;
+    top: 5% ;
+    color: rgb(178, 28, 28);
+    left: 35%;
+    
+}
